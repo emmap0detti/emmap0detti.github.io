@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  background-color: #d3eeff;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
+  <style>
+    ul {
+      top: 0px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100px;
+      background-color: #d3eeff;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
 
-li a.active {
-  background-color: #a9bdff;
-  color: white;
-}
+    li a.active {
+      background-color: #a9bdff;
+      color: white;
+    }
 
-li a:hover:not(.active) {
-  background-color: #88a0f6;
-  color: white;
-}
-</style>
+    li a:hover:not(.active) {
+      background-color: #88a0f6;
+      color: white;
+    }
+  </style>
 </head>
 
 <ul>
@@ -39,10 +41,63 @@ li a:hover:not(.active) {
   <li><a href="#about">bien</a></li>
 </ul>
 
-<h1>HELLO ilya</h1>
 
 <style>
-    body {
+  .box {
+    font-size: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(107, 81, 255);
+    border: 1px dashed rgba(255, 96, 170, 0.692);
+  }
+</style>
+
+<style>
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 110px;
+  }
+
+  .flex-container .box {
+    background-color: rgba(255, 184, 231, 0.356);
+    width: 50%;
+    margin: 5px;
+    text-align: justify;
+    line-height: 12px;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  div.flex-container {
+    margin-left: 100px;
+    padding: 1px 16px;
+    width: 700px;
+    position: fixed;
+  }
+</style>
+
+<body>
+
+  <div class="flex-container">
+    <div class="box">blablaLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in magna a nibh accumsan
+      scelerisque. Nam a condimentum purus, sit amet tincidunt tortor. Donec hendrerit tellus ut purus pretium, in
+      feugiat sem lacinia. Aliquam nisi ligula, imperdiet a tortor tempor, condimentum aliquet justo. Nullam et
+      turpis tellus. Quisque aliquet auctor dui eu viverra. Vivamus non malesuada leo. Maecenas nec magna dictum,
+      imperdiet elit nec, pretium turpis. Duis in justo et ligula sagittis auctor. Quisque id sodales arcu, nec
+      dignissim arcu. Proin porta magna ac enim feugiat maximus.</div>
+    <div class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in magna a nibh accumsan
+      scelerisque. Nam a condimentum purus, sit amet tincidunt tortor. Donec hendrerit tellus ut purus pretium, in
+      feugiat sem lacinia. Aliquam nisi ligula, imperdiet a tortor tempor, condimentum aliquet justo. Nullam et
+      turpis tellus. Quisque aliquet auctor dui eu viverra. Vivamus non malesuada leo. Maecenas nec magna dictum,
+      imperdiet elit nec, pretium turpis. Duis in justo et ligula sagittis auctor. Quisque id sodales arcu, nec
+      dignissim arcu. Proin porta magna ac enim feugiat maximus.</div>
+  </div>
+  <div class="body">
+    <style>
+      body {
         background-image: url(https://i.pinimg.com/originals/40/69/93/406993a138157e2938d0eade82370ede.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -51,70 +106,30 @@ li a:hover:not(.active) {
         margin-right: auto;
         text-align: center;
         width: fit content;
-    }
-
-    h1 {
+      }
+    </style>
+  </div>
+  <div class="header">
+    <h1>hello ilya</h1>
+    <style>
+      h1 {
         color: rgb(107, 81, 255);
         font-size: 46px;
-  margin-left: 100px;
-  width: 700px;
-  
-    }
-
-    .box {
-        font-size: 8px;
-        font-family: 'Courier New', Courier, monospace;
-        color: rgb(107, 81, 255);
-        border: 1px dashed rgba(255, 96, 170, 0.692);
-    }
-
-</style>
-
-<head>
-    <style>
-        .flex-container {
-            display: flex;
-            flex-wrap: nowrap;
-            background: none;
-        }
-
-        .flex-container .box {
-            background-color: rgba(255, 184, 231, 0.356);
-            width: 50%;
-            margin: 5px;
-            text-align: justify;
-            line-height: 12px;
-            font-size: 12px;
-            padding: 10px 10px 10px 10px;
-        }
-            div.flex-container {
-  margin-left: 100px;
-  padding: 1px 16px;
-  width: 700px;
-  position: fixed;
-}
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 700px;
+        height: 50px;
+        position: fixed;
+        top: 0px;
+      }
     </style>
-</head>
 
-<body>
-
-    <div class="flex-container">
-        <div class="box">blablaLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in magna a nibh accumsan
-            scelerisque. Nam a condimentum purus, sit amet tincidunt tortor. Donec hendrerit tellus ut purus pretium, in
-            feugiat sem lacinia. Aliquam nisi ligula, imperdiet a tortor tempor, condimentum aliquet justo. Nullam et
-            turpis tellus. Quisque aliquet auctor dui eu viverra. Vivamus non malesuada leo. Maecenas nec magna dictum,
-            imperdiet elit nec, pretium turpis. Duis in justo et ligula sagittis auctor. Quisque id sodales arcu, nec
-            dignissim arcu. Proin porta magna ac enim feugiat maximus.</div>
-        <div class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in magna a nibh accumsan
-            scelerisque. Nam a condimentum purus, sit amet tincidunt tortor. Donec hendrerit tellus ut purus pretium, in
-            feugiat sem lacinia. Aliquam nisi ligula, imperdiet a tortor tempor, condimentum aliquet justo. Nullam et
-            turpis tellus. Quisque aliquet auctor dui eu viverra. Vivamus non malesuada leo. Maecenas nec magna dictum,
-            imperdiet elit nec, pretium turpis. Duis in justo et ligula sagittis auctor. Quisque id sodales arcu, nec
-            dignissim arcu. Proin porta magna ac enim feugiat maximus.</div>
-    </div>
+  </div>
 
 
 </body>
 
 </body>
+
 </html>
