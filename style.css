@@ -60,7 +60,7 @@ body {
 }
 
 .flex-container .box {
-    background-color: rgba(255, 184, 231, 0.356);
+    background-color: rgba(255, 198, 236, 0.548);
     width: 50%;
     margin: 5px;
     text-align: justify;
@@ -80,5 +80,5 @@ div.flex-container {
     font-size: 8px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(107, 81, 255);
-    border: 1px dashed rgba(255, 185, 218, 0.692);
+    border: 1px dashed rgba(253, 101, 172, 0.692);
 }
