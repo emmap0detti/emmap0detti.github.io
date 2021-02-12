@@ -43,11 +43,11 @@ body {
     background-image: url(https://i.pinimg.com/originals/40/69/93/406993a138157e2938d0eade82370ede.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Courier New', Courier, monospace;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: fit content;
 }
 
 .flex-container {
